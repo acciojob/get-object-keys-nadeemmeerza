@@ -10,6 +10,6 @@ student.prototype.getKeys = function(){
 			return Object.keys(this);
 		} 
 
-// const myObject = new student("john", 34, "dumka");
-// const body = document.querySelector("body");
-// body.innerText = myObject.getKeys();
+const myObject = new student("john", 34, "dumka");
+const body = document.querySelector("body");
+body.innerText = myObject.getKeys();
