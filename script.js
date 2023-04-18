@@ -6,5 +6,5 @@ function student(name, age, city){
 }
 
 student.prototype.getKeys = ()=>{
-			return Objects.keys(this);
+			return Objects.keys(student);
 		} 
