@@ -5,6 +5,6 @@ function student(name, age, city){
 	    this.city = city;
 }
 
-student.prototype.getKeys = ()=>{
-			return Objects.keys(student);
+student.prototype.getKeys = function(){
+			return Objects.keys(this);
 		} 
