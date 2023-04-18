@@ -1,14 +1,14 @@
 //your JS code here. If requir
-const student = (name, age, city){	
-		this.name = name;
-	    this.age = age; 
-	    this.city = city;
+const student ={	
+		name : "john", 
+	    age :35, 
+	    city : "new york",
 }
 
 student.prototype.getKeys = function(){
 			return Object.keys(this);
 		} 
 
-// const myObject = new student("john",35, "new york");
-// const body = document.querySelector("body");
-// body.innerText = myObject.getKeys();
+const myObject = Object.create(student);
+const body = document.querySelector("body");
+body.innerText = myObject.getKeys();
