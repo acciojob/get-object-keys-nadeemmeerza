@@ -8,3 +8,6 @@ function student(name, age, city){
 student.prototype.getKeys = function(){
 			return Objects.keys(this);
 		} 
+
+const myObject = new student("john",35, "new york");
+document.write(myObject.getKeys());
